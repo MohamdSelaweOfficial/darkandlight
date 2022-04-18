@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light and Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label  class="theme-switch">
+            <input type="checkbox">
+            <div class="slider "></div>
+        </label>
+    </div>
+    <!-- navigation -->
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <!-- Home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>My Portfolio</h1>
+            <h2>By Mohammad selawe</h2>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about">
+        <h1>illustrations</h1>
+        <div class="about-container">
+            <div class="image-container">
+            <h2>customizability</h2>
+                <img src="img/undraw_add_color_re_buro_light.svg" alt="" id="image1">
+            </div>
+
+            <div class="image-container">
+                <h2>Launch</h2>
+                <img src="img/undraw_maker_launch_re_rq81_light.svg" alt="" id="image2">
+            </div>
+
+                <div class="image-container">
+                    <h2>Chat With Friends</h2>
+                    <img src="img/undraw_online_discussion_re_nn7e_light.svg" alt="" id="image3">
+                </div>
+            <div class="image-container">
+                <h2>Family</h2>
+                <img src="img/undraw_people_re_8spw_light.svg" alt="" id="image4">
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section id="projects">
+        <h1>Github Projects</h1>
+        <div class="buttons">
+           <a href="https://mohamdselaweofficial.github.io/Infinite-Scrolling/"><button class="primary">Infinite scrolling <i class="fas fa-infinity"></i></button></a>
+           <a href="https://mohamdselaweofficial.github.io/Quote-Generator/"><button class="primary">Quote Generator  <i class="fas fa-quote-left"></i></button></a>
+           <a href="https://mohamdselaweofficial.github.io/Form-Validation/"><button class="primary">Form validation  <i class="fas fa-align-justify"></i></button></a>
+           <a href="https://mohamdselaweofficial.github.io/PongGame/"><button class="primary">Ping pong  <i class="fas fa-table-tennis"></i></button></a>
+        </div>
+        <div class="text-box" id="textbox">
+            <p>Hi, my name is Mohamed I am a front-end developer from Israel and welcome to my website.
+                this website showcase many modern features like:
+                 dark and light mode with changing SVG illustration(provided by "UNdraw"), and smooth scrolling when clicking on the navbar.
+                the icons are provided by the "FontAwesome" Toolkit.
+                and as well "Google Fonts" 
+                Here you can find links to my other project and social media accounts.  </p>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mohamd-s-17aba0197"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/MohamdSelaweOfficial"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
